@@ -1,5 +1,4 @@
-# Test Cases: [Your First Name Last Initial]
-
+# Test Cases: Sidharth Nair
 **Team number:** [XX]
 
 <!--
@@ -14,24 +13,24 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
-**Preconditions:**
-**Test data:**
+**Test ID:** SN-01
+**Written by:** Sidharth Nair
+**Title:** Votes boundary <0
+**Traces to:**  app/app.js/app.js -->  Line 128
+**Test type:**Integration
+**Preconditions:**There must be a costume preexisting in the webapp, you must not have used all of your votes beforehand. If that is the case, reset the demo.
+**Test data:** Navigate to the "Vote" heading, then use all of your votes. You will notice that you are only stopped from voting once your votes hit -1, 
 
 **Steps:**
-1.
-2.
-3.
+1. Navigate to "vote" heading, ensuring there are preexisting example costumes and you have not used all of your votes
+2. Click "vote" on whichever costume you like until the system prevents you from voting.
+3. Notice that the system stops you at -1 votes remaining, not 0 votes remaining.
 
-**Expected result:**
-**Actual result:**
-**Status:** (Pass / Fail)
-**Severity:** (Critical / Major / Minor, Fail only)
-**V or V:** (Verification / Validation, Fail only)
+**Expected result:** Votes remaining: 0
+**Actual result:** Votes remaining: -1
+**Status:** Fail
+**Severity:** Minor, though everyone is granted an extra vote, EVERYONE is granted that extra vote, keeping the same results as if the system is not broken.
+**V or V:** Verification, you are building the correct system, but building incorrectly.
 
 ---
 
