@@ -14,24 +14,24 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
-**Preconditions:**
-**Test data:**
+**Test ID: KH-01**
+**Written by: Karan Hooda**
+**Title: Adding string one instead of integer one to the number of votes.**
+**Traces to: REQ-15**
+**Test type: Unit** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
+**Preconditions: Have votes remaning and then vote for Vampire Accountant.**
+**Test data: Press vote for Vampire Accountant.**
 
 **Steps:**
-1.
-2.
-3.
+1. Go to votes page
+2. Find Vampire Accountant
+3. Vote for vampire Accountant
 
-**Expected result:**
-**Actual result:**
-**Status:** (Pass / Fail)
-**Severity:** (Critical / Major / Minor, Fail only)
-**V or V:** (Verification / Validation, Fail only)
+**Expected result: Number of votes goes up by one when someone presses vote button for Vampire Accountant.**
+**Actual result: Number gets a "1" added to it as a string to the end of it instead of adding it as a integer.**
+**Status: Fail** (Pass / Fail)
+**Severity: Critical** (Critical / Major / Minor, Fail only)
+**V or V: Verification** (Verification / Validation, Fail only)
 
 ---
 
