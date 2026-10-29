@@ -35,23 +35,23 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:**
-**Preconditions:**
-**Test data:**
+**Test ID:** TC-02
+**Written by:** Nhan Nguyen
+**Title:** All API keys and admin password/username are not in an env file (public)
+**Traces to:** NFR-03
+**Test type:** Security
+**Preconditions:** Demo loads correctly
+**Test data:** API keys, admin username and password are in the source code
 
 **Steps:**
-1.
-2.
-3.
+1. Clone repo from github 
+2. Open Config.js file
+3. Read api keys and admin accounts
 
-**Expected result:**
-**Actual result:**
-**Status:**
-**Severity:**
-**V or V:**
+**Expected result:** Hidden inside an env file
+**Actual result:** Public within source files 
+**Status:** Fail
+**Severity:** Critical
+**V or V:** Verification
 
 ---
