@@ -14,24 +14,24 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
-**Preconditions:**
-**Test data:**
+**Test ID:** TC-01
+**Written by:** Nhan Nguyen
+**Title:** Username requirements are ignored
+**Traces to:** REQ-01
+**Test type:** Boundary Value
+**Preconditions:** Account with certain name must have not been created already
+**Test data:** Username and password can just be aaaa (below the minimum requirement)
 
 **Steps:**
-1.
-2.
-3.
+1. Press log in / register
+2. In the Username and password section type aaaa for both
+3. Press create account
 
-**Expected result:**
-**Actual result:**
-**Status:** (Pass / Fail)
-**Severity:** (Critical / Major / Minor, Fail only)
-**V or V:** (Verification / Validation, Fail only)
+**Expected result:** Username and password needs to be unique and at least 8 letters
+**Actual result:** Account created you can log in now
+**Status:** Fail
+**Severity:** Major 
+**V or V:** Verification Fail only
 
 ---
 
